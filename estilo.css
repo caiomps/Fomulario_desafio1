@@ -1,0 +1,89 @@
+@import url(reset.css);
+
+:root{
+    --primary-color: #3a68b7;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    height: 100vh;
+}
+
+form{
+    background-color: white;
+    padding: 2em;
+    border-left: 8px solid rgba(11, 10, 10, 0.63);
+}
+
+legend{
+    padding: .8em 0;
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-family: "roboto", sans-serif;
+    font-weight: 150;
+}
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+input{
+    padding: .5em;
+    margin-bottom: 1.5em;
+    border: 2px solid transparent;
+    border-bottom-color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus{
+    
+}
+
+label{
+    font-size: 1.5rem;
+    color: rgb(107, 108, 108);
+}
+
+.container_inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link_cadastre-se{
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    padding: .70em 1rem;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_inferior-texto{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.7rem;
+}
